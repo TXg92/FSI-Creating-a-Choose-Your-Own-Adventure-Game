@@ -38,8 +38,10 @@ if (firstAnswer === "left") {
         "Quickly, you run back to the cave's entrance. Sheepish, you return home."
       );
     }
-  } else if (secondAnswer === "Away from dragon") {\
-     let thirdAnswer = window.prompt(After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?)
+  } else if (secondAnswer === "Away from dragon") {
+    let thirdAnswer = window.prompt(
+      "After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?"
+    );
   }
 }
 if (thirdAnswer === "eat him") {
